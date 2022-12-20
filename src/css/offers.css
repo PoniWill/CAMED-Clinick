@@ -1,0 +1,208 @@
+@import 'https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap';
+* {
+  font-family: Rubik;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  box-shadow: 0px -7px 25px rgba(0, 0, 0, 0.25);
+}
+header .logo {
+  display: flex;
+}
+header .logo h2 {
+  color: #0BBD7B;
+  font-size: 18px;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  color: #000000;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header .address {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+header .address h3 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+}
+header .address p {
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+header .contact h3 {
+  font-weight: 500;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 586px;
+  background: url("../imgs/Vector(1).svg") right bottom no-repeat, linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%);
+  background-color: #0BBD7B;
+  mix-blend-mode: overlay;
+}
+.first img {
+  width: 594px;
+  height: 360px;
+}
+.first .text h1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+}
+.first .text p {
+  color: #FFFFFF;
+  width: 470px;
+}
+
+.offerses {
+  background-image: url("../imgs/Rectangle 78.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.offerses .offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 30px;
+}
+.offerses .offers h2 {
+  font-size: 50px;
+}
+.offerses .offers .offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offerses .offers .offer .off {
+  margin: 0;
+  padding: 0;
+  width: 1218px;
+  height: 128px;
+  background: #FFFFFF;
+  box-shadow: 0px 9px 23px rgba(32, 94, 71, 0.25);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.offerses .offers .offer .off:hover {
+  cursor: pointer;
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
+  color: white;
+}
+.offerses .offers .offer .off h4 {
+  font-size: 36px;
+}
+.offerses .offers .offer .off img {
+  margin-left: 600px;
+  transition: all 0.25s linear;
+}
+.offerses .offers .offer .off img.transform {
+  transform: rotate(180deg);
+}
+.offerses .offers .offer .about {
+  margin: 0;
+  padding: 0;
+  width: 943px;
+  height: 446px;
+  padding: 30px 50px 30px 50px;
+  background-color: white;
+  display: none;
+  box-shadow: -2px 1px 2px rgba(0, 0, 0, 0.15), 2px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  width: 100%;
+  height: 470px;
+  background: #134B36;
+  background-image: url("../imgs/Vector(1).svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer h3 {
+  margin: 10px;
+  color: #FFFFFF;
+}
+footer p {
+  margin: 10px;
+  color: #FFFFFF;
+}
+footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .foots {
+  margin: 0;
+  padding-left: 100px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+footer .foots .aboutUs {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+footer .foots .aboutUs .name1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .foots .aboutUs .name1 h3 {
+  font-size: 36px;
+}
+footer .foots .aboutUs .name1 .cherta {
+  width: 227px;
+  height: 9px;
+  background: #2DD999;
+  border-radius: 20px;
+}
+footer .sertificat {
+  margin: 30px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  width: 270px;
+  height: 54px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  gap: 30px;
+}
+footer h4 {
+  margin: 30px;
+  margin-left: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
