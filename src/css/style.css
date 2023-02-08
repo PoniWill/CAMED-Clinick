@@ -100,6 +100,8 @@ main .services .service-cards {
   flex-wrap: wrap;
 }
 main .services .service-cards .service-card {
+  color: black;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;

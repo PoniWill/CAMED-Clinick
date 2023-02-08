@@ -34,6 +34,9 @@ header nav a {
   color: #000000;
   text-decoration: none;
 }
+header nav a:hover {
+  text-decoration: underline;
+}
 header .address {
   margin-top: 28px;
   margin-bottom: 28px;
@@ -58,10 +61,9 @@ header .contact h3 {
   justify-content: center;
   width: 100%;
   height: 586px;
-  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #0BBD7B;
-  background-image: url("../imgs/Vector(1).svg");
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  background: url("../imgs/Vector(1).svg") right bottom no-repeat, linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%);
+  background-color: #0BBD7B;
+  mix-blend-mode: overlay;
 }
 .first img {
   width: 594px;
@@ -78,57 +80,26 @@ header .contact h3 {
   width: 470px;
 }
 
-.services {
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+.table-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.services h2 {
-  margin: 0;
+.table-wrapper h2 {
+  text-align: center;
   font-size: 50px;
 }
-.services .service-cards {
-  width: 1108px;
-  gap: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.table-wrapper table {
+  border-collapse: collapse;
+  margin: 0 auto;
 }
-.services .service-cards .service-card {
-  text-decoration: none;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 262px;
-  height: 97px;
-  background: linear-gradient(0deg, #F4FAF7, #F4FAF7), #F4FAF7;
-  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
-  border-radius: 20px;
+.table-wrapper table tr th {
+  text-align: left;
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
 }
-.services .service-cards .service-card svg {
-  width: 34px;
-  height: 48px;
-  fill: #0BBD7B;
-}
-.services .service-cards .service-card:hover {
-  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
-  box-shadow: 0px 15px 50px rgba(45, 217, 153, 0.5);
-  cursor: pointer;
-  fill: white;
-}
-.services .service-cards .service-card:hover svg {
-  fill: white;
-}
-.services .service-cards .service-card:hover p {
-  color: white;
-}
-.services .service-cards .service-card p {
-  width: 158px;
-  text-align: center;
+.table-wrapper table tr td {
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid rgba(95, 95, 95, 0.8);
 }
 
 footer {
