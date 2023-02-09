@@ -81,7 +81,7 @@ header .contact h3 {
 }
 
 .table-wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .table-wrapper h2 {
@@ -90,7 +90,7 @@ header .contact h3 {
 }
 .table-wrapper table {
   border-collapse: collapse;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 .table-wrapper table tr th {
   text-align: left;
@@ -100,6 +100,9 @@ header .contact h3 {
 .table-wrapper table tr td {
   padding: 10px 10px 10px 10px;
   border-bottom: 1px solid rgba(95, 95, 95, 0.8);
+}
+.table-wrapper table tr td:last-child {
+  min-width: 70px;
 }
 
 footer {
