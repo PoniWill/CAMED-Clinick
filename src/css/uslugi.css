@@ -102,7 +102,7 @@ header .contact h3 {
   border-bottom: 1px solid rgba(95, 95, 95, 0.8);
 }
 .table-wrapper table tr td:last-child {
-  min-width: 70px;
+  min-width: 80px;
 }
 
 footer {

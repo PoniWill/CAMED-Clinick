@@ -210,6 +210,7 @@ main .doctorses h2 {
   font-size: 50px;
 }
 main .doctorses .doctors {
+  width: 1108px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

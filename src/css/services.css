@@ -98,6 +98,7 @@ header .contact h3 {
   flex-wrap: wrap;
 }
 .services .service-cards .service-card {
+  display: block;
   text-decoration: none;
   color: black;
   display: flex;
