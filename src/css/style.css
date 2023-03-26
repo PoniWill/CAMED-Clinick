@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap';
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 * {
   font-family: Rubik;
 }
@@ -55,7 +55,7 @@ header .contact h3 {
   font-weight: 500;
 }
 
-main .first {
+.first {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,232 +66,22 @@ main .first {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
-main .first img {
+.first img {
   width: 594px;
   height: 360px;
 }
-main .first .text h1 {
+.first .text h1 {
   margin: 0;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 50px;
 }
-main .first .text p {
+.first .text p {
   color: #FFFFFF;
   width: 470px;
 }
-main .services {
-  height: 505px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-main .services h2 {
-  margin: 0;
-  font-size: 50px;
-}
-main .services .service-cards {
-  width: 1108px;
-  gap: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-main .services .service-cards .service-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 262px;
-  height: 97px;
-  background: linear-gradient(0deg, #F4FAF7, #F4FAF7), #F4FAF7;
-  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
-  border-radius: 20px;
-}
-main .services .service-cards .service-card svg {
-  width: 34px;
-  height: 48px;
-  fill: #0BBD7B;
-}
-main .services .service-cards .service-card:hover {
-  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
-  box-shadow: 0px 15px 50px rgba(45, 217, 153, 0.5);
-  cursor: pointer;
-  fill: white;
-}
-main .services .service-cards .service-card:hover svg {
-  fill: white;
-}
-main .services .service-cards .service-card:hover p {
-  color: white;
-}
-main .services .service-cards .service-card p {
-  width: 158px;
-  text-align: center;
-  text-decoration: none;
-}
-main .about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 528px;
-  gap: 50px;
-  margin: 0;
-}
-main .about img {
-  width: 520px;
-  height: 379px;
-}
-main .about .about-text h2 {
-  margin: 0;
-  color: black;
-  font-weight: 700;
-  font-size: 50px;
-}
-main .about .about-text p {
-  width: 689px;
-  height: 279px;
-  font-size: 18px;
-  line-height: 135%;
-}
-main .privilegie {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #1AE484;
-  width: 100%;
-  height: 376px;
-}
-main .privilegie h2 {
-  margin: 0;
-  margin-bottom: 50px;
-  font-size: 50px;
-  color: #FFFFFF;
-}
-main .privilegie .privileg {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-main .privilegie .privilegies {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 374.74px;
-  height: 146px;
-  background: #FFFFFF;
-  border-radius: 20px;
-  gap: 10px;
-}
-main .privilegie .privilegies p {
-  width: 244px;
-}
-main .privilegie .privilegies h4 {
-  color: #2DD999;
-}
-main .doctorses {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-main .doctorses h2 {
-  margin: 0;
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 50px;
-}
-main .doctorses .doctors {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 40px 30px 40px 30px;
-  gap: 40px;
-}
-main .doctorses .doctors .doctor {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 330px;
-  height: 210px;
-  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
-  border-radius: 20px;
-  transition: all 1s;
-}
-main .doctorses .doctors .doctor:hover {
-  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
-  cursor: pointer;
-  transition: all 1s;
-}
-main .doctorses .doctors .doctor p {
-  width: 230px;
-  height: 15px;
-  text-align: center;
-  color: #C4C4C4;
-  font-size: 15px;
-}
-main .doctorses .doctors .doctor h4 {
-  margin: 0;
-  color: #0BBD7B;
-}
-main .doctorses .doctors .doctor-1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 330px;
-  height: 210px;
-  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #1AE484;
-  border-radius: 20px;
-  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
-}
-main .doctorses .doctors .doctor-1:hover {
-  cursor: pointer;
-}
-main .doctorses .doctors .doctor-1 h4 {
-  color: #FFFFFF;
-}
-main .map {
-  width: 95%;
-  height: 500px;
-  border-radius: 20px;
-  margin-left: 180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin: 35px;
-}
-main .map .adress-point {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 382px;
-  height: 199px;
-  background: #134B36;
-  border-radius: 25px;
-}
-main .map .adress-point h4 {
-  margin: 0;
-  color: white;
-  font-size: 36px;
-}
-main .map .adress-point p {
-  font-size: 16px;
-  color: white;
-}
-main .map .mapa {
-  border-radius: 20px;
-}
-main footer {
+
+footer {
   width: 100%;
   height: 470px;
   background: #134B36;
@@ -302,45 +92,45 @@ main footer {
   justify-content: center;
   flex-direction: column;
 }
-main footer h3 {
+footer h3 {
   margin: 10px;
   color: #FFFFFF;
 }
-main footer p {
+footer p {
   margin: 10px;
   color: #FFFFFF;
 }
-main footer p:hover {
+footer p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-main footer .foots {
+footer .foots {
   margin: 0;
   padding-left: 100px;
   gap: 20px;
   display: flex;
   align-items: center;
 }
-main footer .foots .aboutUs {
+footer .foots .aboutUs {
   display: flex;
   flex-direction: column;
   font-size: 18px;
 }
-main footer .foots .aboutUs .name1 {
+footer .foots .aboutUs .name1 {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-main footer .foots .aboutUs .name1 h3 {
+footer .foots .aboutUs .name1 h3 {
   font-size: 36px;
 }
-main footer .foots .aboutUs .name1 .cherta {
+footer .foots .aboutUs .name1 .cherta {
   width: 227px;
   height: 9px;
   background: #2DD999;
   border-radius: 20px;
 }
-main footer .sertificat {
+footer .sertificat {
   margin: 30px;
   margin-left: 100px;
   display: flex;
@@ -353,11 +143,273 @@ main footer .sertificat {
   border-radius: 20px;
   gap: 30px;
 }
-main footer h4 {
+footer h4 {
   margin: 30px;
   margin-left: 100px;
   font-weight: 500;
   font-size: 18px;
   line-height: 145%;
   color: #FFFFFF;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 586px;
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #0BBD7B;
+  background-image: url("../imgs/Vector(1).svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.first img {
+  width: 594px;
+  height: 360px;
+}
+.first .text h1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+}
+.first .text p {
+  color: #FFFFFF;
+  width: 470px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0 50px 0;
+}
+.services h2 {
+  margin: 0;
+  font-size: 50px;
+}
+.services .service-cards {
+  width: 1108px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.services .service-cards .service-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 262px;
+  height: 97px;
+  background: linear-gradient(0deg, #F4FAF7, #F4FAF7), #F4FAF7;
+  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
+  border-radius: 20px;
+}
+.services .service-cards .service-card svg {
+  width: 34px;
+  height: 48px;
+  fill: #0BBD7B;
+}
+.services .service-cards .service-card:hover {
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
+  box-shadow: 0px 15px 50px rgba(45, 217, 153, 0.5);
+  cursor: pointer;
+  fill: white;
+}
+.services .service-cards .service-card:hover svg {
+  fill: white;
+}
+.services .service-cards .service-card:hover p {
+  color: white;
+}
+.services .service-cards .service-card p {
+  width: 158px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 528px;
+  gap: 50px;
+  margin: 0;
+}
+.about img {
+  width: 520px;
+  height: 379px;
+}
+.about .about-text h2 {
+  margin: 0;
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+}
+.about .about-text p {
+  width: 689px;
+  height: 279px;
+  font-size: 18px;
+  line-height: 135%;
+}
+
+.privilegie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #1AE484;
+  width: 100%;
+  height: 376px;
+}
+.privilegie h2 {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.privilegie .privileg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.privilegie .privilegies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 374.74px;
+  height: 146px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  gap: 10px;
+}
+.privilegie .privilegies p {
+  width: 244px;
+}
+.privilegie .privilegies h4 {
+  color: #2DD999;
+}
+
+.doctorses {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.doctorses h2 {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.doctorses .doctors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 30px 40px 30px;
+  gap: 40px;
+}
+.doctorses .doctors .doctor {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  height: 210px;
+  background: linear-gradient(0deg, #F4FAF7, #F4FAF7), #F4FAF7;
+  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
+  border-radius: 20px;
+  transition: all 1s;
+}
+.doctorses .doctors .doctor svg {
+  fill: #0BBD7B;
+}
+.doctorses .doctors .doctor:hover {
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
+  box-shadow: 0px 15px 50px rgba(45, 217, 153, 0.5);
+  cursor: pointer;
+  fill: white;
+}
+.doctorses .doctors .doctor:hover svg {
+  fill: white;
+}
+.doctorses .doctors .doctor:hover p {
+  color: white;
+}
+.doctorses .doctors .doctor p {
+  width: 230px;
+  height: 15px;
+  text-align: center;
+  color: #C4C4C4;
+  font-size: 15px;
+}
+.doctorses .doctors .doctor h4 {
+  margin: 0;
+  color: #0BBD7B;
+}
+.doctorses .doctors .doctor-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 210px;
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #1AE484;
+  border-radius: 20px;
+  box-shadow: 0px 9px 11px rgba(10, 65, 44, 0.25);
+}
+.doctorses .doctors .doctor-1:hover {
+  background: linear-gradient(268.06deg, #21D0DB 1.64%, #1BE484 99.24%), #2DD999;
+  box-shadow: 0px 15px 50px rgba(45, 217, 153, 0.5);
+  cursor: pointer;
+  fill: white;
+}
+.doctorses .doctors .doctor-1:hover svg {
+  fill: white;
+}
+.doctorses .doctors .doctor-1:hover p {
+  color: white;
+}
+.doctorses .doctors .doctor-1 h4 {
+  color: #FFFFFF;
+}
+
+.map {
+  width: 95%;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 35px;
+}
+.map .adress-point {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 382px;
+  height: 199px;
+  min-width: 382px;
+  background: #134B36;
+  border-radius: 25px;
+}
+.map .adress-point h4 {
+  margin: 0;
+  color: white;
+  font-size: 36px;
+}
+.map .adress-point p {
+  font-size: 16px;
+  color: white;
+}
+.map .mapa {
+  border-radius: 20px;
 }
